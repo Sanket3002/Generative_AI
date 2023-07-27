@@ -1,8 +1,8 @@
 import openai
 import time
 
-
-openai.api_key  = "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"
+#add API key
+openai.api_key  = ""
 print("If you want end the interview type EXIT")
 
 def get_completion_from_messages(messages, model="gpt-3.5-turbo", temperature=0):
